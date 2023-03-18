@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    background-color: black;
+}
+
+.logo_nome{
+   padding: 25px 15px;
+   text-align: center;
+   width: 30%;
+}
+
+.logo_nome h1{
+    color: white;
+    font-size: 30px;
+}
+.logo_nome span{
+    color:  #3f7aff;
+}
+
+.logo_sobre{
+     width: 70%;
+    padding: 15px 70px;
+    text-align: left;
+}
+
+.logo_sobre h3{
+    color: white;
+    font-size: 20px;
+}
+
+.logo_sobre h2{
+    color: white;
+    font-size: 40px;
+}
+
+.logo_sobre p{
+    color: white;
+    font-size: 18px;
+}
+
+section.trabalhos{
+    padding:40px 0;
+}
+
+section.trabalhos > h2{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.trabalho-single{
+    display: flex;
+    padding:40px 0;
+    flex-wrap: wrap;
+}
+
+.trabalho-img{
+    width:50%;
+    padding:50px;
+    background-color:#5e82ff  ;
+}
+
+.trabalho-img img{
+    max-width: 100%;
+    width:100%;
+}
+
+
+.wraper-descricao{
+    width:50%;
+    padding:10px 20px;
+}
+
+
+
+.box-depoimento{
+    padding:8 15px;
+    margin:40px 0;
+    border-radius:8px;
+    box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
+}
+
+.box-depoimento p{
+    color: #4d533c;
+    margin:10px 0;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.box-depoimento h2{
+    color:#1b1b1b;
+    font-size: 16px;
+}
+
+.box-depoimento h3{
+    color: #1b1b1b;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.box-depoimento-user{display: flex;}
+
+.box-depoimento-user img{
+    width:50px;
+    height:50px;
+}
+
+.box-depoimento-nome{
+    padding:8 10px;
+}
+
+
+section.faq{
+    padding:50px 0;
+    border-top:1px solid #ccc;
+}
+
+.box-faq{
+    margin:30px 0;
+    border-radius: 4px;
+    box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    float: left;
+    width:22%;
+    min-height: 200px;
+    margin-right: 3%;
+    padding:30px 30px;
+}
+
+.box-faq h2{
+    font-size: 24px;
+    padding:10px 0;
+}
+
+.box-faq p{
+    font-size: 14px;
+    color:rgba(33, 56, 66, 0.6);
+
+
+}
+section.contato{
+    padding: 40px ;
+    width: 100%;
+}
+
+section.contato .center{
+    display: flex;
+    flex-wrap: wrap;
+    margin:40px auto;
+}
+
+section.contato h2{
+    font-size: 25px;
+    text-align: center;
+    color:#1b1b1b;
+}
+
+
+
+.telefone{
+     width: 50%;
+  
+    padding: 0 30px;  
+
+}
+
+.telefone h3{
+    font-size: 20px;
+    color: rgba(33, 56, 66, 0.6);
+}
+
+.telefone p{
+    color: rgba(33, 56, 66, 0.6);
+    font-size: 16px;
+    margin-top: 10px;
+    text-decoration: underline;
+  }
+
+.formulario{
+    width:50%;
+    padding:0 20px;
+   
+}
+
+
+
+.formulario label{
+    text-align: center;
+    color: rgba(33, 56, 66, 0.6);
+    font-weight: bold;
+}
+
+.formulario input[type=text] {
+    width: 100%;
+    height:40px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.08);
+    border: solid 1px #ededed;
+    background-color: #ffffff;
+}
+
+.formulario input[type=email] {
+    width: 100%;
+    height:40px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.08);
+    border: solid 1px #ededed;
+    background-color: #ffffff;
+}
+
+.formulario textarea{
+    width: 100%;
+    height:100px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.08);
+    border: solid 1px #ededed;
+    background-color: #ffffff;
+    resize: vertical;
+}
+
+.formulario input[type=submit] {
+    width:100%;
+    height:30px;
+    color:white;
+    cursor: pointer;
+    border:0;
+    border-radius: 4px;
+    background-color: #5e82ff;
+
+}
+
+footer{
+    padding: 20px;
+    background-color: black;
+}
+
+footer h2{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+
+@media screen and (max-width:768px){
+    .logo_nome{
+        width: 100%;
+    }
+    .logo_sobre{
+        width: 100%;
+    }
+    .trabalho-img{
+        width:100%;
+       
+    }
+      
+    .wraper-descricao{
+        width:100%;
+ 
+    }
+   
+    .box-faq{
+        width: 100%;
+    }
+    .telefone{
+        width: 100%;
+        text-align: center;
+    }
+    .formulario{
+        width: 100%;
+    }
+
+}
